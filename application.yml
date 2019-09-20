@@ -6,3 +6,6 @@ eureka:
       
   instance:
     instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+  rabbitmq:
+    host: 10.0.75.1
