@@ -9,3 +9,33 @@ eureka:
 
 rabbitmq:
   host: 10.0.75.1
+
+---
+spring:
+  profiles: subject
+words: I,You,He,She,It
+
+---
+spring:
+  profiles: verb
+words: ran,knew,had,saw,bought
+
+---
+spring:
+  profiles: article
+words: a,the
+
+---
+spring:
+  profiles: adjective
+ words: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+  profiles: noun
+words: icicle,refrigerator,blizzard,snowball
+
+---
+spring:
+  profiles: cold-noun
+words: boat,book,vote,seat,backpack,partition,groundhog
