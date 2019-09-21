@@ -1,3 +1,6 @@
 wordConfig:
   luckyWord: Johnson's Wealth is Very Great
   preamble: The lucky word is
+  
+greetingCongig:
+  say: Hello World
